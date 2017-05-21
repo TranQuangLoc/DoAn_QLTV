@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ChonDocGia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChonDocGia.Designer.cs">
+      <DependentUpon>ChonDocGia.cs</DependentUpon>
+    </Compile>
     <Compile Include="ChonSach.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -57,6 +63,12 @@
     </Compile>
     <Compile Include="DanhSachSach.Designer.cs">
       <DependentUpon>DanhSachSach.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GhiNhanMatSach.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GhiNhanMatSach.Designer.cs">
+      <DependentUpon>GhiNhanMatSach.cs</DependentUpon>
     </Compile>
     <Compile Include="PhieuMuonSach.cs">
       <SubType>Form</SubType>
@@ -96,11 +108,17 @@
     <Compile Include="Đăng Nhập.Designer.cs">
       <DependentUpon>Đăng Nhập.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="ChonDocGia.resx">
+      <DependentUpon>ChonDocGia.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ChonSach.resx">
       <DependentUpon>ChonSach.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="DanhSachSach.resx">
       <DependentUpon>DanhSachSach.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GhiNhanMatSach.resx">
+      <DependentUpon>GhiNhanMatSach.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PhieuMuonSach.resx">
       <DependentUpon>PhieuMuonSach.cs</DependentUpon>

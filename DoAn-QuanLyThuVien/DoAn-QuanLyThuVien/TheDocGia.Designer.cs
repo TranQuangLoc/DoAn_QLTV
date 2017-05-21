@@ -147,6 +147,7 @@
             // 
             // txt_nguoiLap
             // 
+            this.txt_nguoiLap.Enabled = false;
             this.txt_nguoiLap.Location = new System.Drawing.Point(121, 210);
             this.txt_nguoiLap.Name = "txt_nguoiLap";
             this.txt_nguoiLap.Size = new System.Drawing.Size(207, 22);
@@ -168,6 +169,7 @@
             // 
             // dtp_ngayLapThe
             // 
+            this.dtp_ngayLapThe.Enabled = false;
             this.dtp_ngayLapThe.Location = new System.Drawing.Point(494, 158);
             this.dtp_ngayLapThe.Name = "dtp_ngayLapThe";
             this.dtp_ngayLapThe.Size = new System.Drawing.Size(213, 22);

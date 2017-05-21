@@ -36,6 +36,7 @@
             this.dtg_phieuMuonSach = new System.Windows.Forms.DataGridView();
             this.btn_chonSach = new System.Windows.Forms.Button();
             this.btn_hoanTat = new System.Windows.Forms.Button();
+            this.btn_chonDocGia = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dtg_phieuMuonSach)).BeginInit();
             this.SuspendLayout();
             // 
@@ -70,6 +71,7 @@
             // 
             // txt_hoTenDocGia
             // 
+            this.txt_hoTenDocGia.Enabled = false;
             this.txt_hoTenDocGia.Location = new System.Drawing.Point(155, 83);
             this.txt_hoTenDocGia.Name = "txt_hoTenDocGia";
             this.txt_hoTenDocGia.Size = new System.Drawing.Size(171, 22);
@@ -77,6 +79,7 @@
             // 
             // dtp_ngayMuon
             // 
+            this.dtp_ngayMuon.Enabled = false;
             this.dtp_ngayMuon.Location = new System.Drawing.Point(461, 81);
             this.dtp_ngayMuon.Name = "dtp_ngayMuon";
             this.dtp_ngayMuon.Size = new System.Drawing.Size(200, 22);
@@ -102,18 +105,28 @@
             // 
             // btn_hoanTat
             // 
-            this.btn_hoanTat.Location = new System.Drawing.Point(477, 429);
+            this.btn_hoanTat.Location = new System.Drawing.Point(524, 429);
             this.btn_hoanTat.Name = "btn_hoanTat";
             this.btn_hoanTat.Size = new System.Drawing.Size(81, 38);
             this.btn_hoanTat.TabIndex = 7;
             this.btn_hoanTat.Text = "Hoàn Tất";
             this.btn_hoanTat.UseVisualStyleBackColor = true;
             // 
+            // btn_chonDocGia
+            // 
+            this.btn_chonDocGia.Location = new System.Drawing.Point(270, 429);
+            this.btn_chonDocGia.Name = "btn_chonDocGia";
+            this.btn_chonDocGia.Size = new System.Drawing.Size(118, 38);
+            this.btn_chonDocGia.TabIndex = 8;
+            this.btn_chonDocGia.Text = "Chọn Độc Giả";
+            this.btn_chonDocGia.UseVisualStyleBackColor = true;
+            // 
             // fr_PhieuMuonSach
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(691, 494);
+            this.Controls.Add(this.btn_chonDocGia);
             this.Controls.Add(this.btn_hoanTat);
             this.Controls.Add(this.btn_chonSach);
             this.Controls.Add(this.dtg_phieuMuonSach);
@@ -140,5 +153,6 @@
         private System.Windows.Forms.DataGridView dtg_phieuMuonSach;
         private System.Windows.Forms.Button btn_chonSach;
         private System.Windows.Forms.Button btn_hoanTat;
+        private System.Windows.Forms.Button btn_chonDocGia;
     }
 }

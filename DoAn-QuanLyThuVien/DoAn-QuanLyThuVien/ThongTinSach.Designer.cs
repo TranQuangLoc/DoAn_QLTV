@@ -168,6 +168,7 @@
             // 
             // dtp_ngayNhap
             // 
+            this.dtp_ngayNhap.Enabled = false;
             this.dtp_ngayNhap.Location = new System.Drawing.Point(178, 172);
             this.dtp_ngayNhap.Name = "dtp_ngayNhap";
             this.dtp_ngayNhap.Size = new System.Drawing.Size(204, 22);

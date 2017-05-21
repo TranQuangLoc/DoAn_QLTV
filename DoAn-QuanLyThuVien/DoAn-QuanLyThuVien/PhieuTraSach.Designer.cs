@@ -43,6 +43,7 @@
             this.dtp_ngayTra = new System.Windows.Forms.DateTimePicker();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.btn_hoanTat = new System.Windows.Forms.Button();
+            this.btn_chonDocGia = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -113,6 +114,7 @@
             // 
             // txt_tenDocGia
             // 
+            this.txt_tenDocGia.Enabled = false;
             this.txt_tenDocGia.Location = new System.Drawing.Point(132, 61);
             this.txt_tenDocGia.Name = "txt_tenDocGia";
             this.txt_tenDocGia.Size = new System.Drawing.Size(155, 22);
@@ -120,6 +122,7 @@
             // 
             // txt_tienPhatKiNay
             // 
+            this.txt_tienPhatKiNay.Enabled = false;
             this.txt_tienPhatKiNay.Location = new System.Drawing.Point(436, 110);
             this.txt_tienPhatKiNay.Name = "txt_tienPhatKiNay";
             this.txt_tienPhatKiNay.Size = new System.Drawing.Size(200, 22);
@@ -127,6 +130,7 @@
             // 
             // txt_tienNo
             // 
+            this.txt_tienNo.Enabled = false;
             this.txt_tienNo.Location = new System.Drawing.Point(436, 155);
             this.txt_tienNo.Name = "txt_tienNo";
             this.txt_tienNo.Size = new System.Drawing.Size(200, 22);
@@ -134,6 +138,7 @@
             // 
             // txt_tongNo
             // 
+            this.txt_tongNo.Enabled = false;
             this.txt_tongNo.Location = new System.Drawing.Point(436, 204);
             this.txt_tongNo.Name = "txt_tongNo";
             this.txt_tongNo.Size = new System.Drawing.Size(200, 22);
@@ -149,6 +154,7 @@
             // 
             // dtp_ngayTra
             // 
+            this.dtp_ngayTra.Enabled = false;
             this.dtp_ngayTra.Location = new System.Drawing.Point(436, 61);
             this.dtp_ngayTra.Name = "dtp_ngayTra";
             this.dtp_ngayTra.Size = new System.Drawing.Size(200, 22);
@@ -172,11 +178,21 @@
             this.btn_hoanTat.Text = "Hoàn Tất";
             this.btn_hoanTat.UseVisualStyleBackColor = true;
             // 
+            // btn_chonDocGia
+            // 
+            this.btn_chonDocGia.Location = new System.Drawing.Point(132, 423);
+            this.btn_chonDocGia.Name = "btn_chonDocGia";
+            this.btn_chonDocGia.Size = new System.Drawing.Size(111, 35);
+            this.btn_chonDocGia.TabIndex = 17;
+            this.btn_chonDocGia.Text = "Chọn Độc Giả";
+            this.btn_chonDocGia.UseVisualStyleBackColor = true;
+            // 
             // fr_PhieuTraSach
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(661, 470);
+            this.Controls.Add(this.btn_chonDocGia);
             this.Controls.Add(this.btn_hoanTat);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.dtp_ngayTra);
@@ -217,5 +233,6 @@
         private System.Windows.Forms.DateTimePicker dtp_ngayTra;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Button btn_hoanTat;
+        private System.Windows.Forms.Button btn_chonDocGia;
     }
 }
