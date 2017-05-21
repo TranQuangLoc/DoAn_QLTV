@@ -60,6 +60,12 @@
     <Compile Include="ThongTinNhanVien.Designer.cs">
       <DependentUpon>ThongTinNhanVien.cs</DependentUpon>
     </Compile>
+    <Compile Include="ThongTinSach.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ThongTinSach.Designer.cs">
+      <DependentUpon>ThongTinSach.cs</DependentUpon>
+    </Compile>
     <Compile Include="Đăng Nhập.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -80,6 +86,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ThongTinNhanVien.resx">
       <DependentUpon>ThongTinNhanVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ThongTinSach.resx">
+      <DependentUpon>ThongTinSach.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Đăng Nhập.resx">
       <DependentUpon>Đăng Nhập.cs</DependentUpon>
