@@ -1,0 +1,11 @@
+c:\users\dell\documents\visual studio 2015\Projects\DoAn-QuanLyThuVien\DoAn-QuanLyThuVien\bin\Debug\DoAn-QuanLyThuVien.exe.config
+c:\users\dell\documents\visual studio 2015\Projects\DoAn-QuanLyThuVien\DoAn-QuanLyThuVien\bin\Debug\DoAn-QuanLyThuVien.exe
+c:\users\dell\documents\visual studio 2015\Projects\DoAn-QuanLyThuVien\DoAn-QuanLyThuVien\bin\Debug\DoAn-QuanLyThuVien.pdb
+c:\users\dell\documents\visual studio 2015\Projects\DoAn-QuanLyThuVien\DoAn-QuanLyThuVien\obj\Debug\DoAn-QuanLyThuVien.csprojResolveAssemblyReference.cache
+c:\users\dell\documents\visual studio 2015\Projects\DoAn-QuanLyThuVien\DoAn-QuanLyThuVien\obj\Debug\DoAn_QuanLyThuVien.Properties.Resources.resources
+c:\users\dell\documents\visual studio 2015\Projects\DoAn-QuanLyThuVien\DoAn-QuanLyThuVien\obj\Debug\DoAn-QuanLyThuVien.csproj.GenerateResource.Cache
+c:\users\dell\documents\visual studio 2015\Projects\DoAn-QuanLyThuVien\DoAn-QuanLyThuVien\obj\Debug\DoAn-QuanLyThuVien.exe
+c:\users\dell\documents\visual studio 2015\Projects\DoAn-QuanLyThuVien\DoAn-QuanLyThuVien\obj\Debug\DoAn-QuanLyThuVien.pdb
+C:\Users\DELL\Documents\GitHub\DoAn_QLTV\DoAn-QuanLyThuVien\DoAn-QuanLyThuVien\bin\Debug\DoAn-QuanLyThuVien.exe.config
+C:\Users\DELL\Documents\GitHub\DoAn_QLTV\DoAn-QuanLyThuVien\DoAn-QuanLyThuVien\obj\Debug\DoAn-QuanLyThuVien.exe
+C:\Users\DELL\Documents\GitHub\DoAn_QLTV\DoAn-QuanLyThuVien\DoAn-QuanLyThuVien\obj\Debug\DoAn-QuanLyThuVien.pdb
