@@ -46,11 +46,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ChonSach.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChonSach.Designer.cs">
+      <DependentUpon>ChonSach.cs</DependentUpon>
+    </Compile>
     <Compile Include="DanhSachSach.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="DanhSachSach.Designer.cs">
       <DependentUpon>DanhSachSach.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PhieuMuonSach.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PhieuMuonSach.Designer.cs">
+      <DependentUpon>PhieuMuonSach.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -78,8 +90,14 @@
     <Compile Include="Đăng Nhập.Designer.cs">
       <DependentUpon>Đăng Nhập.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="ChonSach.resx">
+      <DependentUpon>ChonSach.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="DanhSachSach.resx">
       <DependentUpon>DanhSachSach.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PhieuMuonSach.resx">
+      <DependentUpon>PhieuMuonSach.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
