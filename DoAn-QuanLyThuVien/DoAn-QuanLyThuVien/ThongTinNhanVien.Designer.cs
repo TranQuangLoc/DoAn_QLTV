@@ -37,7 +37,6 @@
             this.lb_dienThoai = new System.Windows.Forms.Label();
             this.lb_boPhan = new System.Windows.Forms.Label();
             this.txt_hoTen = new System.Windows.Forms.TextBox();
-            this.txt_ngaySinh = new System.Windows.Forms.TextBox();
             this.txt_bangCap = new System.Windows.Forms.TextBox();
             this.txt_chucVu = new System.Windows.Forms.TextBox();
             this.txt_diaChi = new System.Windows.Forms.TextBox();
@@ -47,6 +46,7 @@
             this.btn_themNV = new System.Windows.Forms.Button();
             this.btn_suaNV = new System.Windows.Forms.Button();
             this.btn_xoaNV = new System.Windows.Forms.Button();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             ((System.ComponentModel.ISupportInitialize)(this.dtg_ThongTinNhanVien)).BeginInit();
             this.SuspendLayout();
             // 
@@ -100,7 +100,7 @@
             // lb_dicChi
             // 
             this.lb_dicChi.AutoSize = true;
-            this.lb_dicChi.Location = new System.Drawing.Point(300, 77);
+            this.lb_dicChi.Location = new System.Drawing.Point(403, 78);
             this.lb_dicChi.Name = "lb_dicChi";
             this.lb_dicChi.Size = new System.Drawing.Size(53, 17);
             this.lb_dicChi.TabIndex = 5;
@@ -109,7 +109,7 @@
             // lb_dienThoai
             // 
             this.lb_dienThoai.AutoSize = true;
-            this.lb_dienThoai.Location = new System.Drawing.Point(300, 125);
+            this.lb_dienThoai.Location = new System.Drawing.Point(403, 126);
             this.lb_dienThoai.Name = "lb_dienThoai";
             this.lb_dienThoai.Size = new System.Drawing.Size(77, 17);
             this.lb_dienThoai.TabIndex = 6;
@@ -118,7 +118,7 @@
             // lb_boPhan
             // 
             this.lb_boPhan.AutoSize = true;
-            this.lb_boPhan.Location = new System.Drawing.Point(300, 183);
+            this.lb_boPhan.Location = new System.Drawing.Point(403, 184);
             this.lb_boPhan.Name = "lb_boPhan";
             this.lb_boPhan.Size = new System.Drawing.Size(62, 17);
             this.lb_boPhan.TabIndex = 7;
@@ -128,49 +128,42 @@
             // 
             this.txt_hoTen.Location = new System.Drawing.Point(126, 74);
             this.txt_hoTen.Name = "txt_hoTen";
-            this.txt_hoTen.Size = new System.Drawing.Size(139, 22);
+            this.txt_hoTen.Size = new System.Drawing.Size(236, 22);
             this.txt_hoTen.TabIndex = 8;
-            // 
-            // txt_ngaySinh
-            // 
-            this.txt_ngaySinh.Location = new System.Drawing.Point(126, 125);
-            this.txt_ngaySinh.Name = "txt_ngaySinh";
-            this.txt_ngaySinh.Size = new System.Drawing.Size(139, 22);
-            this.txt_ngaySinh.TabIndex = 9;
             // 
             // txt_bangCap
             // 
             this.txt_bangCap.Location = new System.Drawing.Point(126, 180);
             this.txt_bangCap.Name = "txt_bangCap";
-            this.txt_bangCap.Size = new System.Drawing.Size(139, 22);
+            this.txt_bangCap.Size = new System.Drawing.Size(236, 22);
             this.txt_bangCap.TabIndex = 10;
             // 
             // txt_chucVu
             // 
             this.txt_chucVu.Location = new System.Drawing.Point(126, 235);
             this.txt_chucVu.Name = "txt_chucVu";
-            this.txt_chucVu.Size = new System.Drawing.Size(139, 22);
+            this.txt_chucVu.Size = new System.Drawing.Size(236, 22);
             this.txt_chucVu.TabIndex = 11;
             // 
             // txt_diaChi
             // 
-            this.txt_diaChi.Location = new System.Drawing.Point(417, 77);
+            this.txt_diaChi.Location = new System.Drawing.Point(520, 78);
             this.txt_diaChi.Name = "txt_diaChi";
-            this.txt_diaChi.Size = new System.Drawing.Size(166, 22);
+            this.txt_diaChi.Size = new System.Drawing.Size(241, 22);
             this.txt_diaChi.TabIndex = 12;
             // 
             // txt_dienThoai
             // 
-            this.txt_dienThoai.Location = new System.Drawing.Point(417, 125);
+            this.txt_dienThoai.Location = new System.Drawing.Point(520, 126);
             this.txt_dienThoai.Name = "txt_dienThoai";
-            this.txt_dienThoai.Size = new System.Drawing.Size(166, 22);
+            this.txt_dienThoai.Size = new System.Drawing.Size(241, 22);
             this.txt_dienThoai.TabIndex = 13;
             // 
             // txt_boPhan
             // 
-            this.txt_boPhan.Location = new System.Drawing.Point(417, 179);
+            this.txt_boPhan.Location = new System.Drawing.Point(520, 180);
             this.txt_boPhan.Name = "txt_boPhan";
-            this.txt_boPhan.Size = new System.Drawing.Size(166, 22);
+            this.txt_boPhan.Size = new System.Drawing.Size(241, 22);
             this.txt_boPhan.TabIndex = 14;
             // 
             // dtg_ThongTinNhanVien
@@ -179,7 +172,7 @@
             this.dtg_ThongTinNhanVien.Location = new System.Drawing.Point(12, 291);
             this.dtg_ThongTinNhanVien.Name = "dtg_ThongTinNhanVien";
             this.dtg_ThongTinNhanVien.RowTemplate.Height = 24;
-            this.dtg_ThongTinNhanVien.Size = new System.Drawing.Size(620, 150);
+            this.dtg_ThongTinNhanVien.Size = new System.Drawing.Size(790, 150);
             this.dtg_ThongTinNhanVien.TabIndex = 15;
             // 
             // btn_themNV
@@ -193,7 +186,7 @@
             // 
             // btn_suaNV
             // 
-            this.btn_suaNV.Location = new System.Drawing.Point(278, 472);
+            this.btn_suaNV.Location = new System.Drawing.Point(360, 472);
             this.btn_suaNV.Name = "btn_suaNV";
             this.btn_suaNV.Size = new System.Drawing.Size(75, 36);
             this.btn_suaNV.TabIndex = 17;
@@ -202,18 +195,26 @@
             // 
             // btn_xoaNV
             // 
-            this.btn_xoaNV.Location = new System.Drawing.Point(508, 472);
+            this.btn_xoaNV.Location = new System.Drawing.Point(662, 472);
             this.btn_xoaNV.Name = "btn_xoaNV";
             this.btn_xoaNV.Size = new System.Drawing.Size(75, 36);
             this.btn_xoaNV.TabIndex = 18;
             this.btn_xoaNV.Text = "Xóa";
             this.btn_xoaNV.UseVisualStyleBackColor = true;
             // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.Location = new System.Drawing.Point(126, 119);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(236, 22);
+            this.dateTimePicker1.TabIndex = 19;
+            // 
             // ThongTinNhanVien
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(644, 520);
+            this.ClientSize = new System.Drawing.Size(814, 520);
+            this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.btn_xoaNV);
             this.Controls.Add(this.btn_suaNV);
             this.Controls.Add(this.btn_themNV);
@@ -223,7 +224,6 @@
             this.Controls.Add(this.txt_diaChi);
             this.Controls.Add(this.txt_chucVu);
             this.Controls.Add(this.txt_bangCap);
-            this.Controls.Add(this.txt_ngaySinh);
             this.Controls.Add(this.txt_hoTen);
             this.Controls.Add(this.lb_boPhan);
             this.Controls.Add(this.lb_dienThoai);
@@ -252,7 +252,6 @@
         private System.Windows.Forms.Label lb_dienThoai;
         private System.Windows.Forms.Label lb_boPhan;
         private System.Windows.Forms.TextBox txt_hoTen;
-        private System.Windows.Forms.TextBox txt_ngaySinh;
         private System.Windows.Forms.TextBox txt_bangCap;
         private System.Windows.Forms.TextBox txt_chucVu;
         private System.Windows.Forms.TextBox txt_diaChi;
@@ -262,5 +261,6 @@
         private System.Windows.Forms.Button btn_themNV;
         private System.Windows.Forms.Button btn_suaNV;
         private System.Windows.Forms.Button btn_xoaNV;
+        private System.Windows.Forms.DateTimePicker dateTimePicker1;
     }
 }
