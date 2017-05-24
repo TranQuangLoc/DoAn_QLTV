@@ -41,71 +41,72 @@
             this.lb_DangNhap.AutoSize = true;
             this.lb_DangNhap.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lb_DangNhap.ForeColor = System.Drawing.Color.Blue;
-            this.lb_DangNhap.Location = new System.Drawing.Point(214, 21);
-            this.lb_DangNhap.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lb_DangNhap.Location = new System.Drawing.Point(428, 41);
+            this.lb_DangNhap.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lb_DangNhap.Name = "lb_DangNhap";
-            this.lb_DangNhap.Size = new System.Drawing.Size(158, 32);
+            this.lb_DangNhap.Size = new System.Drawing.Size(308, 63);
             this.lb_DangNhap.TabIndex = 0;
             this.lb_DangNhap.Text = "Đăng Nhập";
             // 
             // lb_TenDangNhap
             // 
             this.lb_TenDangNhap.AutoSize = true;
-            this.lb_TenDangNhap.Location = new System.Drawing.Point(36, 86);
-            this.lb_TenDangNhap.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lb_TenDangNhap.Location = new System.Drawing.Point(72, 167);
+            this.lb_TenDangNhap.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lb_TenDangNhap.Name = "lb_TenDangNhap";
-            this.lb_TenDangNhap.Size = new System.Drawing.Size(109, 17);
+            this.lb_TenDangNhap.Size = new System.Drawing.Size(214, 32);
             this.lb_TenDangNhap.TabIndex = 1;
             this.lb_TenDangNhap.Text = "Tên Đăng Nhập";
             // 
             // lb_Pass
             // 
             this.lb_Pass.AutoSize = true;
-            this.lb_Pass.Location = new System.Drawing.Point(38, 130);
-            this.lb_Pass.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lb_Pass.Location = new System.Drawing.Point(76, 252);
+            this.lb_Pass.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lb_Pass.Name = "lb_Pass";
-            this.lb_Pass.Size = new System.Drawing.Size(69, 17);
+            this.lb_Pass.Size = new System.Drawing.Size(139, 32);
             this.lb_Pass.TabIndex = 2;
             this.lb_Pass.Text = "Password";
             // 
             // txt_tenDangNhap
             // 
-            this.txt_tenDangNhap.Location = new System.Drawing.Point(205, 82);
-            this.txt_tenDangNhap.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_tenDangNhap.Location = new System.Drawing.Point(410, 159);
+            this.txt_tenDangNhap.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txt_tenDangNhap.Name = "txt_tenDangNhap";
-            this.txt_tenDangNhap.Size = new System.Drawing.Size(242, 22);
+            this.txt_tenDangNhap.Size = new System.Drawing.Size(480, 38);
             this.txt_tenDangNhap.TabIndex = 3;
             // 
             // txt_pass
             // 
-            this.txt_pass.Location = new System.Drawing.Point(205, 126);
-            this.txt_pass.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_pass.Location = new System.Drawing.Point(410, 244);
+            this.txt_pass.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txt_pass.Name = "txt_pass";
-            this.txt_pass.Size = new System.Drawing.Size(242, 22);
+            this.txt_pass.Size = new System.Drawing.Size(480, 38);
             this.txt_pass.TabIndex = 4;
             // 
             // btn_dangnhap
             // 
-            this.btn_dangnhap.Location = new System.Drawing.Point(220, 218);
-            this.btn_dangnhap.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_dangnhap.Location = new System.Drawing.Point(440, 422);
+            this.btn_dangnhap.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btn_dangnhap.Name = "btn_dangnhap";
-            this.btn_dangnhap.Size = new System.Drawing.Size(94, 34);
+            this.btn_dangnhap.Size = new System.Drawing.Size(188, 66);
             this.btn_dangnhap.TabIndex = 5;
             this.btn_dangnhap.Text = "Đăng Nhập";
             this.btn_dangnhap.UseVisualStyleBackColor = true;
+            this.btn_dangnhap.Click += new System.EventHandler(this.btn_dangnhap_Click);
             // 
             // fr_dangnhap
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(523, 299);
+            this.ClientSize = new System.Drawing.Size(1046, 579);
             this.Controls.Add(this.btn_dangnhap);
             this.Controls.Add(this.txt_pass);
             this.Controls.Add(this.txt_tenDangNhap);
             this.Controls.Add(this.lb_Pass);
             this.Controls.Add(this.lb_TenDangNhap);
             this.Controls.Add(this.lb_DangNhap);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "fr_dangnhap";
             this.Text = "Đăng_Nhập";
             this.ResumeLayout(false);
