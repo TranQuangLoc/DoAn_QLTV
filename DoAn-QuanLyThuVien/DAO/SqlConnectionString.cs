@@ -11,7 +11,7 @@ namespace DAO
     public class SqlConnectionString
     {
         public static SqlConnection HamKetNoi() {
-            SqlConnection connect = new SqlConnection(@"Data Source=TranQuangLoc;Initial Catalog=QLNS;Integrated Security=True");
+            SqlConnection connect = new SqlConnection(@"Data Source=TranQuangLoc;Initial Catalog=DoAnQLThuVien;Integrated Security=True");
             return connect;
         }
 

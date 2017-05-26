@@ -36,15 +36,19 @@ namespace DoAn_QuanLyThuVien
                     this.Visible = false;
                     ad.Show();
                 }
-                else
+                else if (dnn._permiss == 2)
                 {
                     ThongTinNhanVien s = new ThongTinNhanVien();
                     this.Visible = false;
                     s.ShowDialog();
+                } else if (dnn._permiss == 3) {
+
+
                 }
             }
             else
             {
+                lblthongbao.Text = "Sai thông tin đăng nhập";
                 txt_tenDangNhap.Focus();
             }
         }

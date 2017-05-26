@@ -34,6 +34,7 @@
             this.txt_tenDangNhap = new System.Windows.Forms.TextBox();
             this.txt_pass = new System.Windows.Forms.TextBox();
             this.btn_dangnhap = new System.Windows.Forms.Button();
+            this.lblthongbao = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // lb_DangNhap
@@ -81,12 +82,13 @@
             this.txt_pass.Location = new System.Drawing.Point(410, 244);
             this.txt_pass.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txt_pass.Name = "txt_pass";
+            this.txt_pass.PasswordChar = '*';
             this.txt_pass.Size = new System.Drawing.Size(480, 38);
             this.txt_pass.TabIndex = 4;
             // 
             // btn_dangnhap
             // 
-            this.btn_dangnhap.Location = new System.Drawing.Point(440, 422);
+            this.btn_dangnhap.Location = new System.Drawing.Point(702, 441);
             this.btn_dangnhap.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btn_dangnhap.Name = "btn_dangnhap";
             this.btn_dangnhap.Size = new System.Drawing.Size(188, 66);
@@ -95,11 +97,20 @@
             this.btn_dangnhap.UseVisualStyleBackColor = true;
             this.btn_dangnhap.Click += new System.EventHandler(this.btn_dangnhap_Click);
             // 
+            // lblthongbao
+            // 
+            this.lblthongbao.AutoSize = true;
+            this.lblthongbao.Location = new System.Drawing.Point(104, 475);
+            this.lblthongbao.Name = "lblthongbao";
+            this.lblthongbao.Size = new System.Drawing.Size(0, 32);
+            this.lblthongbao.TabIndex = 6;
+            // 
             // fr_dangnhap
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1046, 579);
+            this.Controls.Add(this.lblthongbao);
             this.Controls.Add(this.btn_dangnhap);
             this.Controls.Add(this.txt_pass);
             this.Controls.Add(this.txt_tenDangNhap);
@@ -122,5 +133,6 @@
         private System.Windows.Forms.TextBox txt_tenDangNhap;
         private System.Windows.Forms.TextBox txt_pass;
         private System.Windows.Forms.Button btn_dangnhap;
+        private System.Windows.Forms.Label lblthongbao;
     }
 }

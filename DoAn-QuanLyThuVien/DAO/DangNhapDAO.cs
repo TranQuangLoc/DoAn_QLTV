@@ -28,8 +28,8 @@ namespace DAO
             {
                 dndto = new DangNhap_DTO();
                 dndto._tendn = tendn;
-                dndto._pass = (string)re["PassWord"];
-                dndto._permiss = (int)re["Permission"];
+                dndto._pass = (string)re["pass"];
+                dndto._permiss = (int)re["permiss"];
             }
             cnn.Close();
             return dndto;
