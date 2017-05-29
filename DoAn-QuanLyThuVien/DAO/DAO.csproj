@@ -43,6 +43,9 @@
     <Compile Include="DangNhapDAO.cs" />
     <Compile Include="SqlConnectionString.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ThemNhanVienDAO.cs" />
+    <Compile Include="ThongTinNhanVienDAO.cs" />
+    <Compile Include="XoaNhanVienDAO.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DTO\DTO.csproj">

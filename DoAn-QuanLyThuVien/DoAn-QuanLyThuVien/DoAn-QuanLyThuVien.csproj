@@ -70,6 +70,12 @@
     <Compile Include="GhiNhanMatSach.Designer.cs">
       <DependentUpon>GhiNhanMatSach.cs</DependentUpon>
     </Compile>
+    <Compile Include="GiamDoc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GiamDoc.Designer.cs">
+      <DependentUpon>GiamDoc.cs</DependentUpon>
+    </Compile>
     <Compile Include="PhieuMuonSach.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -125,6 +131,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="GhiNhanMatSach.resx">
       <DependentUpon>GhiNhanMatSach.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GiamDoc.resx">
+      <DependentUpon>GiamDoc.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PhieuMuonSach.resx">
       <DependentUpon>PhieuMuonSach.cs</DependentUpon>
