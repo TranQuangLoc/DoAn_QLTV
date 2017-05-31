@@ -8,15 +8,16 @@ using System.Data.SqlClient;
 using DTO;
 namespace DAO
 {
-    public class ThemNhanVienDAO
+    public class SuaThongTinNhanVienDAO
     {
-        public int ThemNhanVien(DangNhap_DTO dtonv) {
+        public int SuaNhanVien(DangNhap_DTO dtonv)
+        {
             int k = -1;
             SqlConnection connect = new SqlConnection();
             SqlConnectionString constring = new SqlConnectionString();
             connect = SqlConnectionString.HamKetNoi();
             connect.Open();
-            SqlCommand cmd = new SqlCommand("sp_themnhanvien", connect);
+            SqlCommand cmd = new SqlCommand("sp_updatethongtinnv", connect);
 
             cmd.CommandType = CommandType.StoredProcedure;
             cmd.Parameters.Add("@tendn", SqlDbType.NVarChar);
@@ -28,7 +29,6 @@ namespace DAO
             cmd.Parameters.Add("@chucvu", SqlDbType.NVarChar);
             cmd.Parameters.Add("@bangcap", SqlDbType.NVarChar);
             cmd.Parameters.Add("@ngaysinh", SqlDbType.NChar);
-
             cmd.Parameters["@tendn"].Value = dtonv._tendn;
             cmd.Parameters["@pass"].Value = dtonv._pass;
             cmd.Parameters["@permiss"].Value = dtonv._permiss;
@@ -38,7 +38,6 @@ namespace DAO
             cmd.Parameters["@chucvu"].Value = dtonv._chucvu;
             cmd.Parameters["@bangcap"].Value = dtonv._bangcap;
             cmd.Parameters["@ngaysinh"].Value = dtonv._ngaysinh;
-
             k = cmd.ExecuteNonQuery();
             connect.Close();
             if (k > 0)

@@ -16,5 +16,20 @@ namespace DoAn_QuanLyThuVien
         {
             InitializeComponent();
         }
+
+        private void btnthongtinnv_Click(object sender, EventArgs e)
+        {
+            ThongTinNhanVien ad = new ThongTinNhanVien();
+            this.Visible = false;
+            ad.Show();
+        }
+
+        private void btnquanlysach_Click(object sender, EventArgs e)
+        {
+
+            fr_ThongTinSach s = new fr_ThongTinSach();
+            this.Visible = false;
+            s.Show();
+        }
     }
 }

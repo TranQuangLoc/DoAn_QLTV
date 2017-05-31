@@ -42,7 +42,11 @@
   <ItemGroup>
     <Compile Include="DangNhapBUS.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SuaThongTinNhanVienBUS.cs" />
+    <Compile Include="ThemNhanVienBUS.cs" />
     <Compile Include="ThongTinNhanVienBUS.cs" />
+    <Compile Include="ThongTinSachBUS.cs" />
+    <Compile Include="XoaNhanVienBUS.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DAO\DAO.csproj">

@@ -32,15 +32,15 @@ namespace DoAn_QuanLyThuVien
                 //Xử lý chuyển màn hình...   
                 if (dnn._permiss == 1)
                 {
-                    ThongTinNhanVien ad = new ThongTinNhanVien();
+                    GiamDoc ad = new GiamDoc();
                     this.Visible = false;
                     ad.Show();
                 }
                 else if (dnn._permiss == 2)
                 {
-                    ThongTinNhanVien s = new ThongTinNhanVien();
+                    GiamDoc ad = new GiamDoc();
                     this.Visible = false;
-                    s.ShowDialog();
+                    ad.Show();
                 } else if (dnn._permiss == 3) {
 
 
