@@ -38,7 +38,7 @@ namespace DoAn_QuanLyThuVien
                 }
                 else if (dnn._permiss == 2)
                 {
-                    GiamDoc ad = new GiamDoc();
+                    fr_TheDocGia ad = new fr_TheDocGia();
                     this.Visible = false;
                     ad.Show();
                 } else if (dnn._permiss == 3) {

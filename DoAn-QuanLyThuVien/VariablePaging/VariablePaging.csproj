@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{B380ACF6-D5EA-4315-AFA8-6F3EBDE25109}</ProjectGuid>
+    <ProjectGuid>{245B8C80-6547-4130-9C9B-209507ED7B86}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>BUS</RootNamespace>
-    <AssemblyName>BUS</AssemblyName>
+    <RootNamespace>VariablePaging</RootNamespace>
+    <AssemblyName>VariablePaging</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -40,28 +40,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DangNhapBUS.cs" />
-    <Compile Include="DanhSachDocGiaBUS.cs" />
-    <Compile Include="LaySoDongBUS.cs" />
-    <Compile Include="LaySoReCodeBUS.cs" />
+    <Compile Include="KhaiBaoBienRC.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SuaThongTinNhanVienBUS.cs" />
-    <Compile Include="ThemDocGiaBUS.cs" />
-    <Compile Include="ThemNhanVienBUS.cs" />
-    <Compile Include="ThongTinNhanVienBUS.cs" />
-    <Compile Include="ThongTinSachBUS.cs" />
-    <Compile Include="XoaDocGiaBUS.cs" />
-    <Compile Include="XoaNhanVienBUS.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\DAO\DAO.csproj">
-      <Project>{c1c41ecc-9ca8-447b-8b0f-7eddf7192d18}</Project>
-      <Name>DAO</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\DTO\DTO.csproj">
-      <Project>{32207c07-e0ad-43ec-8272-49d20a234e7d}</Project>
-      <Name>DTO</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

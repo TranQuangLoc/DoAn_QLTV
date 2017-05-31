@@ -131,5 +131,9 @@ namespace DTO
             Ngaylapthe = s_ngaylapthe;
             Maloai = i_maloai;
         }
+
+        public TheDocGia_DTO() {
+
+        }
     }
 }

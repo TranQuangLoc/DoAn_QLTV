@@ -41,18 +41,32 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DangNhapDAO.cs" />
+    <Compile Include="DanhSachDocGiaDAO.cs" />
+    <Compile Include="LaySoRecoreDAO.cs" />
+    <Compile Include="LayTongSoDongDAO.cs" />
     <Compile Include="SqlConnectionString.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SuaThongTinNhanVienDAO.cs" />
+    <Compile Include="ThemDocGiaDAO.cs" />
     <Compile Include="ThemNhanVienDAO.cs" />
     <Compile Include="ThongTinNhanVienDAO.cs" />
     <Compile Include="ThongTinSachDAO.cs" />
+    <Compile Include="XoaDocGiaDAO.cs" />
     <Compile Include="XoaNhanVienDAO.cs" />
+    <Compile Include="XoaSachDAO.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DTO\DTO.csproj">
       <Project>{32207c07-e0ad-43ec-8272-49d20a234e7d}</Project>
       <Name>DTO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LayTongSoTrang\LayTongSoTrang.csproj">
+      <Project>{f1f35417-f85a-474c-90c0-d26493b15b90}</Project>
+      <Name>LayTongSoTrang</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\VariablePaging\VariablePaging.csproj">
+      <Project>{245b8c80-6547-4130-9c9b-209507ed7b86}</Project>
+      <Name>VariablePaging</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

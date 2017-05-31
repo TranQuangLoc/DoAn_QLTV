@@ -42,11 +42,6 @@
             this.txt_namXuatBan = new System.Windows.Forms.TextBox();
             this.txt_triGia = new System.Windows.Forms.TextBox();
             this.dtg_thongTinSach = new System.Windows.Forms.DataGridView();
-            this.btn_them = new System.Windows.Forms.Button();
-            this.btn_sua = new System.Windows.Forms.Button();
-            this.btn_xoa = new System.Windows.Forms.Button();
-            this.txtngaynhap = new System.Windows.Forms.TextBox();
-            this.cbbtheloai = new System.Windows.Forms.ComboBox();
             this.tensach = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tentheloai = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tacgia = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -56,6 +51,13 @@
             this.giasach = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tennv = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.xoa = new System.Windows.Forms.DataGridViewLinkColumn();
+            this.btn_them = new System.Windows.Forms.Button();
+            this.btn_sua = new System.Windows.Forms.Button();
+            this.btn_xoa = new System.Windows.Forms.Button();
+            this.txtngaynhap = new System.Windows.Forms.TextBox();
+            this.cbbtheloai = new System.Windows.Forms.ComboBox();
+            this.lbltotalpage = new System.Windows.Forms.Label();
+            this.cbbcurrentpage = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.dtg_thongTinSach)).BeginInit();
             this.SuspendLayout();
             // 
@@ -144,7 +146,7 @@
             // txt_tenSach
             // 
             this.txt_tenSach.Location = new System.Drawing.Point(356, 147);
-            this.txt_tenSach.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.txt_tenSach.Margin = new System.Windows.Forms.Padding(6);
             this.txt_tenSach.Name = "txt_tenSach";
             this.txt_tenSach.Size = new System.Drawing.Size(404, 38);
             this.txt_tenSach.TabIndex = 8;
@@ -152,7 +154,7 @@
             // txt_tacGia
             // 
             this.txt_tacGia.Location = new System.Drawing.Point(356, 236);
-            this.txt_tacGia.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.txt_tacGia.Margin = new System.Windows.Forms.Padding(6);
             this.txt_tacGia.Name = "txt_tacGia";
             this.txt_tacGia.Size = new System.Drawing.Size(404, 38);
             this.txt_tacGia.TabIndex = 9;
@@ -160,7 +162,7 @@
             // txt_nguoiTiepNhan
             // 
             this.txt_nguoiTiepNhan.Location = new System.Drawing.Point(356, 426);
-            this.txt_nguoiTiepNhan.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.txt_nguoiTiepNhan.Margin = new System.Windows.Forms.Padding(6);
             this.txt_nguoiTiepNhan.Name = "txt_nguoiTiepNhan";
             this.txt_nguoiTiepNhan.Size = new System.Drawing.Size(404, 38);
             this.txt_nguoiTiepNhan.TabIndex = 11;
@@ -168,7 +170,7 @@
             // txt_namXuatBan
             // 
             this.txt_namXuatBan.Location = new System.Drawing.Point(1086, 246);
-            this.txt_namXuatBan.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.txt_namXuatBan.Margin = new System.Windows.Forms.Padding(6);
             this.txt_namXuatBan.Name = "txt_namXuatBan";
             this.txt_namXuatBan.Size = new System.Drawing.Size(434, 38);
             this.txt_namXuatBan.TabIndex = 13;
@@ -176,7 +178,7 @@
             // txt_triGia
             // 
             this.txt_triGia.Location = new System.Drawing.Point(1086, 345);
-            this.txt_triGia.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.txt_triGia.Margin = new System.Windows.Forms.Padding(6);
             this.txt_triGia.Name = "txt_triGia";
             this.txt_triGia.Size = new System.Drawing.Size(434, 38);
             this.txt_triGia.TabIndex = 14;
@@ -195,60 +197,11 @@
             this.tennv,
             this.xoa});
             this.dtg_thongTinSach.Location = new System.Drawing.Point(26, 535);
-            this.dtg_thongTinSach.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.dtg_thongTinSach.Margin = new System.Windows.Forms.Padding(6);
             this.dtg_thongTinSach.Name = "dtg_thongTinSach";
             this.dtg_thongTinSach.RowTemplate.Height = 24;
-            this.dtg_thongTinSach.Size = new System.Drawing.Size(1588, 291);
+            this.dtg_thongTinSach.Size = new System.Drawing.Size(1588, 353);
             this.dtg_thongTinSach.TabIndex = 16;
-            // 
-            // btn_them
-            // 
-            this.btn_them.Location = new System.Drawing.Point(96, 907);
-            this.btn_them.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
-            this.btn_them.Name = "btn_them";
-            this.btn_them.Size = new System.Drawing.Size(150, 58);
-            this.btn_them.TabIndex = 17;
-            this.btn_them.Text = "Thêm";
-            this.btn_them.UseVisualStyleBackColor = true;
-            // 
-            // btn_sua
-            // 
-            this.btn_sua.Location = new System.Drawing.Point(730, 907);
-            this.btn_sua.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
-            this.btn_sua.Name = "btn_sua";
-            this.btn_sua.Size = new System.Drawing.Size(150, 56);
-            this.btn_sua.TabIndex = 18;
-            this.btn_sua.Text = "Sửa";
-            this.btn_sua.UseVisualStyleBackColor = true;
-            // 
-            // btn_xoa
-            // 
-            this.btn_xoa.Location = new System.Drawing.Point(1374, 905);
-            this.btn_xoa.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
-            this.btn_xoa.Name = "btn_xoa";
-            this.btn_xoa.Size = new System.Drawing.Size(150, 58);
-            this.btn_xoa.TabIndex = 19;
-            this.btn_xoa.Text = "Xóa";
-            this.btn_xoa.UseVisualStyleBackColor = true;
-            // 
-            // txtngaynhap
-            // 
-            this.txtngaynhap.Location = new System.Drawing.Point(356, 338);
-            this.txtngaynhap.Name = "txtngaynhap";
-            this.txtngaynhap.Size = new System.Drawing.Size(404, 38);
-            this.txtngaynhap.TabIndex = 20;
-            // 
-            // cbbtheloai
-            // 
-            this.cbbtheloai.FormattingEnabled = true;
-            this.cbbtheloai.Items.AddRange(new object[] {
-            "Giáo Khoa",
-            "Tham Khảo",
-            "Truyện Tranh"});
-            this.cbbtheloai.Location = new System.Drawing.Point(1086, 134);
-            this.cbbtheloai.Name = "cbbtheloai";
-            this.cbbtheloai.Size = new System.Drawing.Size(434, 39);
-            this.cbbtheloai.TabIndex = 21;
             // 
             // tensach
             // 
@@ -308,11 +261,80 @@
             this.xoa.Text = "Xóa Sách";
             this.xoa.UseColumnTextForLinkValue = true;
             // 
+            // btn_them
+            // 
+            this.btn_them.Location = new System.Drawing.Point(85, 959);
+            this.btn_them.Margin = new System.Windows.Forms.Padding(6);
+            this.btn_them.Name = "btn_them";
+            this.btn_them.Size = new System.Drawing.Size(150, 58);
+            this.btn_them.TabIndex = 17;
+            this.btn_them.Text = "Thêm";
+            this.btn_them.UseVisualStyleBackColor = true;
+            // 
+            // btn_sua
+            // 
+            this.btn_sua.Location = new System.Drawing.Point(719, 959);
+            this.btn_sua.Margin = new System.Windows.Forms.Padding(6);
+            this.btn_sua.Name = "btn_sua";
+            this.btn_sua.Size = new System.Drawing.Size(150, 56);
+            this.btn_sua.TabIndex = 18;
+            this.btn_sua.Text = "Sửa";
+            this.btn_sua.UseVisualStyleBackColor = true;
+            // 
+            // btn_xoa
+            // 
+            this.btn_xoa.Location = new System.Drawing.Point(1363, 957);
+            this.btn_xoa.Margin = new System.Windows.Forms.Padding(6);
+            this.btn_xoa.Name = "btn_xoa";
+            this.btn_xoa.Size = new System.Drawing.Size(150, 58);
+            this.btn_xoa.TabIndex = 19;
+            this.btn_xoa.Text = "Xóa";
+            this.btn_xoa.UseVisualStyleBackColor = true;
+            // 
+            // txtngaynhap
+            // 
+            this.txtngaynhap.Location = new System.Drawing.Point(356, 338);
+            this.txtngaynhap.Name = "txtngaynhap";
+            this.txtngaynhap.Size = new System.Drawing.Size(404, 38);
+            this.txtngaynhap.TabIndex = 20;
+            // 
+            // cbbtheloai
+            // 
+            this.cbbtheloai.FormattingEnabled = true;
+            this.cbbtheloai.Items.AddRange(new object[] {
+            "Giáo Khoa",
+            "Tham Khảo",
+            "Truyện Tranh"});
+            this.cbbtheloai.Location = new System.Drawing.Point(1086, 134);
+            this.cbbtheloai.Name = "cbbtheloai";
+            this.cbbtheloai.Size = new System.Drawing.Size(434, 39);
+            this.cbbtheloai.TabIndex = 21;
+            // 
+            // lbltotalpage
+            // 
+            this.lbltotalpage.AutoSize = true;
+            this.lbltotalpage.Location = new System.Drawing.Point(848, 462);
+            this.lbltotalpage.Name = "lbltotalpage";
+            this.lbltotalpage.Size = new System.Drawing.Size(93, 32);
+            this.lbltotalpage.TabIndex = 22;
+            this.lbltotalpage.Text = "label2";
+            // 
+            // cbbcurrentpage
+            // 
+            this.cbbcurrentpage.FormattingEnabled = true;
+            this.cbbcurrentpage.Location = new System.Drawing.Point(1086, 455);
+            this.cbbcurrentpage.Name = "cbbcurrentpage";
+            this.cbbcurrentpage.Size = new System.Drawing.Size(228, 39);
+            this.cbbcurrentpage.TabIndex = 23;
+            this.cbbcurrentpage.SelectedIndexChanged += new System.EventHandler(this.cbbcurrentpage_SelectedIndexChanged);
+            // 
             // fr_ThongTinSach
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1638, 1009);
+            this.ClientSize = new System.Drawing.Size(1810, 1054);
+            this.Controls.Add(this.cbbcurrentpage);
+            this.Controls.Add(this.lbltotalpage);
             this.Controls.Add(this.cbbtheloai);
             this.Controls.Add(this.txtngaynhap);
             this.Controls.Add(this.btn_xoa);
@@ -332,7 +354,7 @@
             this.Controls.Add(this.lb_theLoai);
             this.Controls.Add(this.lb_tenSach);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "fr_ThongTinSach";
             this.Text = "Thông Tin Sách";
             this.Load += new System.EventHandler(this.fr_ThongTinSach_Load);
@@ -372,5 +394,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn giasach;
         private System.Windows.Forms.DataGridViewTextBoxColumn tennv;
         private System.Windows.Forms.DataGridViewLinkColumn xoa;
+        private System.Windows.Forms.Label lbltotalpage;
+        private System.Windows.Forms.ComboBox cbbcurrentpage;
     }
 }
